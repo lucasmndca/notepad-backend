@@ -5,6 +5,7 @@ const Note = require('../models/note')
 router.get('/', async (req, res) => {
     try {
         const notes = await Note.find()
+        res.setHeader("Access-Control-Allow-Origin", "*");
         res.json(notes)
     } catch (error) {
         res.status(500).json({ message: err.message })
