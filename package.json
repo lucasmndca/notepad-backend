@@ -1,0 +1,25 @@
+{
+  "name": "notepad-backend",
+  "version": "1.0.1",
+  "description": "Concerns a simple REST API built in Node.js\r Please do not change any of the addresses contained in any of the variables on the code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmndca/notepad-backend.git"
+  },
+  "author": "Lucas Mendonça Dias <lucas.mendonca159@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmndca/notepad-backend/issues"
+  },
+  "homepage": "https://github.com/lucasmndca/notepad-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4",
+    "node-restful": "^0.2.6"
+  }
+}
